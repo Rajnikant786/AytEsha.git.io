@@ -575,6 +575,17 @@ header {
 }
 
 
+@media screen and (max-width:980px){
+    .current_page_banner{
+        .banner_container{
+            h1{
+                font-size: 4rem !important;
+            }
+        }
+    }    
+}
+
+
 
 // ===============
 .bg_container{

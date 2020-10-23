@@ -534,6 +534,12 @@ header .navbar-toggler:hover .navbar-toggler a {
   background-size: cover !important;
 }
 
+@media screen and (max-width: 980px) {
+  .current_page_banner .banner_container h1 {
+    font-size: 4rem !important;
+  }
+}
+
 .bg_container {
   background-color: #FBFCFC;
   padding: 0rem 0rem 2rem 0rem !important;
