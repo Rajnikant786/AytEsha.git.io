@@ -109,14 +109,14 @@ body {
 }
 
 .carousel {
-  height: 500px;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
+  height: 500px !important;
+  -webkit-perspective: 1000px !important;
+          perspective: 1000px !important;
 }
 
 .carousel .carousel-item {
-  width: 350px;
-  height: 500px;
+  width: 350px !important;
+  height: 500px !important;
   overflow: hidden;
 }
 
@@ -429,6 +429,15 @@ header .navbar-toggler:hover .navbar-toggler a {
 }
 
 @media screen and (max-width: 980px) {
+  #banner {
+    height: 90vh !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .carousel {
+    margin: auto !important;
+  }
   .banner_card {
     padding: .5rem 0rem !important;
   }
@@ -438,6 +447,28 @@ header .navbar-toggler:hover .navbar-toggler a {
   .banner_card .card {
     margin: 1rem 0rem !important;
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #banner {
+    height: 90vh !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .carousel {
+    margin: auto !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .carousel {
+    height: 400px !important;
+  }
+  .carousel .carousel-item {
+    width: 300px !important;
+    height: 380px !important;
   }
 }
 
@@ -451,6 +482,7 @@ header .navbar-toggler:hover .navbar-toggler a {
   height: 70vh;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  background-position: center !important;
 }
 
 .current_page_banner .banner_container h1 {
@@ -482,9 +514,10 @@ header .navbar-toggler:hover .navbar-toggler a {
 }
 
 .current_page_banner .banner_container.banner_img22yrs {
-  background: url(../images/upto_22yrs.jpg) 100% 100% !important;
+  background: url(../images/upto22.jpeg) 100% 100% !important;
   height: 70vh;
   background-size: cover !important;
+  background-position: center !important;
 }
 
 .current_page_banner .banner_container.banner_img22yrs ul li {
@@ -522,7 +555,7 @@ header .navbar-toggler:hover .navbar-toggler a {
   margin: 0rem 0rem 0rem 0rem;
   font-size: 2rem;
   letter-spacing: 1px;
-  background-color: #F1C40F;
+  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 1rem .8rem;
 }
@@ -533,7 +566,7 @@ header .navbar-toggler:hover .navbar-toggler a {
 }
 
 .content_section .accordion button {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   color: #000;
 }
@@ -552,7 +585,7 @@ header .navbar-toggler:hover .navbar-toggler a {
 }
 
 .content_section .accordion .collapse ul li {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #34495E;
   margin: .6rem 0rem;
@@ -586,6 +619,12 @@ header .navbar-toggler:hover .navbar-toggler a {
   padding: 1rem .6rem;
   width: 100%;
   text-align: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.footer:hover {
+  background-color: #000;
 }
 
 .footer p {
