@@ -11,6 +11,9 @@
 // =====variables===========
 $h1-color:#fff;
 
+$green-color:#1ABC9C;
+$blue-color:#2C3E50;
+
 @mixin flexProp{
     display: flex;
     align-items: center;
@@ -184,18 +187,20 @@ header {
         }
         
         .sidenav-trigger{
-            margin:1rem 0 !important;;
+            margin:1rem 0 !important;
             // padding:auto 1rem;
             width: 6rem;
             // @include flexProp;
             cursor: pointer;
-            border:1px solid #1ABC9C;
+            // border:1px solid #1ABC9C;
+            border:1px solid $blue-color;
             position: relative;
             &:hover{
                 background-color:rgba(26, 188, 156 , .2) ;
             }
             i{
-                color:#1ABC9C;
+                // color:#1ABC9C;
+                color:$blue-color;
                 position: absolute;
                 top:50%;
                 left: 50%;
@@ -218,7 +223,8 @@ header {
                 }
             }
             li.active{
-                background-color:rgba(26, 188, 156 , .8);
+                // background-color:rgba(26, 188, 156 , .8);
+                background-color:$blue-color;
                 color:#fff !important;
             }
         }
@@ -226,7 +232,8 @@ header {
 
     
     .list_item li:hover a{
-        color:#1ABC9C;
+        // color:#1ABC9C;
+        color:$blue-color;
     }
 
     .list_item li.active a{
@@ -274,7 +281,8 @@ header {
         box-shadow: none !important;
         .navbar-nav{
             span{
-                color:#1ABC9C;
+                // color:#1ABC9C;
+                color:$blue-color;
                 margin:auto 2rem;
                 font-size: 2rem;
                 font-weight: bold;
@@ -288,7 +296,8 @@ header {
                 // margin-right: 2rem;
                 
                 &:hover{
-                   color:#1ABC9C !important;
+                //    color:#1ABC9C !important;
+                      color:$blue-color !important;
                 }
                 &:hover::before{
                     content: '';
@@ -298,14 +307,16 @@ header {
                     border-radius:2rem;
                     bottom: 0;
                     left: 0;
-                    background-color:#1ABC9C;
+                    // background-color:#1ABC9C;
+                    background-color:$blue-color;
                     // &:hover{
                     //     width: 100%;
                     // }
                 }
             }
             .nav-link.active{
-                color:#1ABC9C !important;
+                // color:#1ABC9C !important;
+                color:$blue-color !important;
                 // border-bottom: 4px solid #1ABC9C;
             }
         }
@@ -329,14 +340,17 @@ header {
     }
     .navbar-toggler{
         cursor: pointer;
-        border:1px solid #1ABC9C !important;
-        color:#1ABC9C !important; 
+        // border:1px solid #1ABC9C !important;
+        // color:#1ABC9C !important; 
+        border:1px solid $blue-color !important;
+        color:$blue-color !important;
         transition: .5s ease-in-out;
         &:hover{
             background-color:rgba(26, 188, 156 , .2);
         }
          a{
-            color:#1ABC9C !important; 
+            // color:#1ABC9C !important; 
+            color:$blue-color !important;
          }
     }
     .navbar-toggler:hover .navbar-toggler a{

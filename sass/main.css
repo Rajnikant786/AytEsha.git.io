@@ -181,7 +181,7 @@ header nav .sidenav-trigger {
   margin: 1rem 0 !important;
   width: 6rem;
   cursor: pointer;
-  border: 1px solid #1ABC9C;
+  border: 1px solid #2C3E50;
   position: relative;
 }
 
@@ -190,7 +190,7 @@ header nav .sidenav-trigger:hover {
 }
 
 header nav .sidenav-trigger i {
-  color: #1ABC9C;
+  color: #2C3E50;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -217,12 +217,12 @@ header nav .list_item li a {
 }
 
 header nav .list_item li.active {
-  background-color: rgba(26, 188, 156, 0.8);
+  background-color: #2C3E50;
   color: #fff !important;
 }
 
 header .list_item li:hover a {
-  color: #1ABC9C;
+  color: #2C3E50;
 }
 
 header .list_item li.active a {
@@ -264,7 +264,7 @@ header nav {
 }
 
 header nav .navbar-nav span {
-  color: #1ABC9C;
+  color: #2C3E50;
   margin: auto 2rem;
   font-size: 2rem;
   font-weight: bold;
@@ -280,7 +280,7 @@ header nav .navbar-nav .nav-link {
 }
 
 header nav .navbar-nav .nav-link:hover {
-  color: #1ABC9C !important;
+  color: #2C3E50 !important;
 }
 
 header nav .navbar-nav .nav-link:hover::before {
@@ -291,11 +291,11 @@ header nav .navbar-nav .nav-link:hover::before {
   border-radius: 2rem;
   bottom: 0;
   left: 0;
-  background-color: #1ABC9C;
+  background-color: #2C3E50;
 }
 
 header nav .navbar-nav .nav-link.active {
-  color: #1ABC9C !important;
+  color: #2C3E50 !important;
 }
 
 header .navbar-brand {
@@ -307,8 +307,8 @@ header .navbar-brand {
 
 header .navbar-toggler {
   cursor: pointer;
-  border: 1px solid #1ABC9C !important;
-  color: #1ABC9C !important;
+  border: 1px solid #2C3E50 !important;
+  color: #2C3E50 !important;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
@@ -318,7 +318,7 @@ header .navbar-toggler:hover {
 }
 
 header .navbar-toggler a {
-  color: #1ABC9C !important;
+  color: #2C3E50 !important;
 }
 
 header .navbar-toggler:hover .navbar-toggler a {
