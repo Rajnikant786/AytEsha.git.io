@@ -479,7 +479,7 @@ header .navbar-toggler:hover .navbar-toggler a {
 
 @media screen and (max-width: 400px) {
   #banner {
-    height: 90vh !important;
+    height: calc(100vh - 10vh) !important;
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
             justify-content: flex-start !important;

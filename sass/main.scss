@@ -524,7 +524,7 @@ header {
 
 @media screen and (max-width:400px){
     #banner{
-        height: 90vh !important;
+        height: calc(100vh - 10vh) !important;
         justify-content: flex-start !important;
     }
     .carousel{
