@@ -113,8 +113,7 @@ body{
 }
 
 // =======example.html===========
-#banner{
-    .carousel{
+.carousel{
     // background-color:red;
     // padding:4rem 0rem !important;
     // width: 80%;
@@ -151,7 +150,6 @@ body{
                 font-size: 4rem;
             }
         }
-    }
     }
 }
 // =============header===============
@@ -378,63 +376,6 @@ header {
         }
     }
     
-}
-
-// =============slider=============
-.slider {
-    .carousel{
-        // background-color:red;
-        .carousel-inner{
-            // background-color: green;
-            .carousel-item {
-                // background-color: yellow;
-                margin-bottom: 0rem !important;
-                width: 100% !important;
-                height: 500px;
-                position: relative;
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
-                .carousel-caption{
-                    // background-color:red;
-                    width: 100%;
-                    // height:inherit;
-                    left: 0;
-                    top: 0;
-                    padding:0rem;
-                    h1{
-                        // color:#1ABC9C !important;
-                        font-size: 3rem !important;
-                        font-weight: 800;
-                        margin-bottom: 3rem;
-                        background-color:rgba(0, 0, 0,.5);
-                        text-align: left;
-                        // background: #1ABC9C;
-                        position: sticky;
-                        padding:.4rem .5rem;
-                        // top:10vh;
-                        // z-index:9999 !important;
-                        color:#fff;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width:780px){
-    .slider {
-        .carousel{
-            // background-color:red;
-            .carousel-inner{
-                background-color: green;
-                .carousel-item {
-                    height: 580px !important;
-                }
-            }
-        }
-    }    
 }
 // ===============================================================
 
@@ -683,7 +624,7 @@ header {
 
 .current_page_banner{
     .banner_container.banner_img_everyOne{
-        background:url(../images/everyone_Else.jpg) 100% 100% !important;
+        background:url(../images/1.jpeg) 100% 100% !important;
         // background-size: 100% 100% !important;
         background-size: cover !important;
         // background-repeat: no-repeat ;
