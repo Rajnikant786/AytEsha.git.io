@@ -608,7 +608,7 @@ header .navbar-toggler:hover .navbar-toggler a {
 
 .content_section .accordion .collapse ul {
   list-style-type: circle !important;
-  margin-left: 1rem;
+  margin-left: 3.5rem;
 }
 
 .content_section .accordion .collapse ul li {
