@@ -176,10 +176,10 @@ header {
             // font-family: 'Kalam', cursive;
             // font-family: 'Nothing You Could Do', cursive;
             // font-family: 'Covered By Your Grace', cursive;
-            font-weight: 800;
+            font-weight: 600;
             // font-family: 'Fascinate', cursive;
             margin:.5rem 0;
-            font-size: 4rem !important;
+            font-size: 2.5rem !important;
             margin-bottom: 0;
             // color:#1ABC9C !important;
             color:rgba(0 ,0 , 0 , .8) !important;
@@ -328,9 +328,9 @@ header {
         // font-family: 'Kalam', cursive;
         // font-family: 'Nothing You Could Do', cursive;
         // font-family: 'Covered By Your Grace', cursive;
-        font-weight:800;
+        font-weight:600;
         // font-family: 'Fascinate', cursive;
-        font-size: 4rem !important;
+        font-size: 2.5rem !important;
         margin-bottom: 0;
         // color:#1ABC9C !important;
         color:rgba(0 ,0 , 0 , .8) !important;
@@ -558,6 +558,7 @@ header {
         background-repeat: no-repeat !important;
         background-size: cover !important;
         background-position: center !important;
+        // @include flexProp;
         // clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 80%);
         // padding:5rem 3rem 0rem 3rem;
         h1{
@@ -625,8 +626,8 @@ header {
 .current_page_banner{
     .banner_container.banner_img_everyOne{
         background:url(../images/1.jpeg) 100% 100% !important;
-        // background-size: 100% 100% !important;
-        background-size: cover !important;
+        background-size: 100% 100% !important;
+        // background-size: cover !important;
         // background-repeat: no-repeat ;
         }
 }
@@ -681,8 +682,8 @@ header {
             // font-size: 4rem !important;
         }
         button{
-            font-size: 3rem;
-            font-weight: 800;
+            font-size: 2rem;
+            font-weight: 700;
             // color:#1ABC9C;
             color:#000;
             // font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
@@ -695,11 +696,12 @@ header {
         }
         .collapse{
             ul{
-                list-style: none;
+                // list-style: none !important;
+                list-style-type: circle !important;
                 margin-left: 1rem;
-                list-style: none;
                 li{
-                    font-size: 1.5rem;
+                    // list-style: none !important;
+                    font-size: 1.4rem;
                     font-weight: 600;
                     color:#34495E;
                     margin:.6rem 0rem;
